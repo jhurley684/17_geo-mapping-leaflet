@@ -1,0 +1,65 @@
+/* remove default margin and padding from body */
+
+  
+  /* set map, body, and html to 100% of the screen size */
+  #map,
+  body,
+  html {
+    height: 95%;
+  }
+
+  #graphsAndFilter {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    background-color: rgb(255, 255, 255, 0.9);
+  }
+  
+  #resultMessage {
+    color: #555;
+    padding-left: 1.5%;
+    padding-top: 1%;
+  }
+
+  #map-id {
+    padding-top: 100%;
+    width: 100%;
+    background-color: #f3f5f7;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+
+  .footer {
+    background-color: rgb(255, 255, 255, 0.9);
+  }
+
+  .legend {
+    padding: 10px;
+    font-family: Sanchez, serif;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #555;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .legend .MINOR {
+    color: #87CEFA;
+  }
+  
+  .legend .MODERATE {
+    color: #1E90FF;
+  }
+  
+  .legend .SERIOUS {
+    color: #0000FF;
+  }
+
+  .legend .MAJOR {
+    color: #DC143C;
+  }
+
