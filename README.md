@@ -1,4 +1,18 @@
-# Leaflet Homework - Visualizing Data with Leaflet
+# Leaflet Challenge - Visualizing Data with Leaflet
+
+The idea with this challenge is to demonstrate understanding of basic leaflet functions and how leaflet works.  In this case, taking US Geographic Data regarding earthquakes and creating a map that visualizes basic earthquake data in a graphic way.  The the size and depth of an earthquake event in the U.S. are depicted in terms of size and color, respectively, of a circular marker.  Each marker can then be clicked to view specific data or each earthquake.  
+
+One important feature of leaflet is the use of the layer concept.  In this case, each level of earthquake -  "minor", "moderate", "serious", "major", -  is a leaflet layer that can be accessed and filtered using the "sandwich" menue in the upper right-had corner of the map.
+
+Leaflet.js is also used to build a legend that is displayed in the lower right.  Not only does the legend correspond to the depth color layer depicted on the map, it counts up and summarizes the number of each type of earthquake event for the viewer.
+
+All code is accessible in this repo and the map can be viewed using Visual Studio (or equivalent) and calling the index.html file using the local server tool (Live Server in the case of Visual Studio).
+
+Directions of the challenge are listed below.  Due to time constraints, only the first, required, part of the challenge was completed.  
+
+
+
+# Leaflet Homework - Directions
 
 ## Background
 
